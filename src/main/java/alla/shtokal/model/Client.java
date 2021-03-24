@@ -1,6 +1,5 @@
 package alla.shtokal.model;
 
-
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -12,35 +11,40 @@ import java.io.Serializable;
 
 import static javax.persistence.GenerationType.IDENTITY;
 
+
 @Getter
 @Setter
 @RequiredArgsConstructor
 @Entity
-@Table(name = "product")
-public class Product implements Serializable {
+@Table(name = "client")
+public class Client implements Serializable {
 
-    private static final long serialVersionUID = -4585902143717599061L;
+    private static final long serialVersionUID = -1674802143717599061L;
 
     @Id
     @GeneratedValue(strategy = IDENTITY)
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "sku",
+    @Column(name = "name",
             nullable = false)
-    private Long sku;
+    private String name;
 
-    @Size(min = 3, max = 100)
+    @Column(name = "email",
+            unique = true,
+            nullable = false)
+    private String email;
+
     @NotBlank
-    @Column(name = "description",
+    @Column(name = "shopping_address",
             length = 100)
-    private String description;
+    private String shoppingAddress;
 
-    @Column(name = "sales_price")
-    private Double salesPrice;
+    @NotBlank
+    @Column(name = "phone",
+            length = 13)
+    private String phone;
 
-    @Column(name = "purchase_price")
-    private Double purchasePrice;
 
 
 }

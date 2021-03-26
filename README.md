@@ -36,7 +36,7 @@ http://localhost:8080/client/add
 ```sh
 http://localhost:8080/warehouse/add
 ```
-**POST salesorder  to MV **
+**POST salesorder  to MV**
 ```sh
 http://localhost:8080/salesorder/add
 ```

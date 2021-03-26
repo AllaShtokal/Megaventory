@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 @Data
 public class RootProductRequest {
 
-    @Value("${apikey}")
+  //  @Value("${apikey}")
     public String APIKEY;
     public MvProduct mvProduct;
     public String mvRecordAction;

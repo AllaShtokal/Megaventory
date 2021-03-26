@@ -1,14 +1,15 @@
-package alla.shtokal.dto.product.response;
+package alla.shtokal.dto.client.response;
 
 import alla.shtokal.dto.ResponseStatus;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
-public class RootProductResponse {
+public class RootClientResponse {
 
-    public MvProduct mvProduct;
+    public MvSupplierClient mvSupplierClient;
     @JsonProperty("ResponseStatus")
     public ResponseStatus responseStatus;
     public int entityID;
+
 }

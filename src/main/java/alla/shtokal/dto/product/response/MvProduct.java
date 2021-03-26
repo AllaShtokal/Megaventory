@@ -3,7 +3,6 @@ package alla.shtokal.dto.product.response;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
-import java.util.Date;
 
 @Data
 public class MvProduct {

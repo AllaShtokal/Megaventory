@@ -1,4 +1,4 @@
-package alla.shtokal.dto.product.response;
+package alla.shtokal.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

@@ -4,7 +4,7 @@
 
 java.alla.shtokal.config :
 
-- WebClientConfig:  to configure WebClient, which will help to send requests to external API: https://api.megaventory.com/v2017a
+- WebClientConfig:  to configure WebClient, which will help to send requests to external API: https://api.megaventory.com/v2017a (I chose WebClient because it is better than  RestTemplate I wanted to use at the beginning )
 
 java.alla.shtokal.controler. mv :
 

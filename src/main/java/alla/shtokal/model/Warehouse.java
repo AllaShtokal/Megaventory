@@ -13,10 +13,10 @@ import static javax.persistence.GenerationType.IDENTITY;
 @Setter
 @RequiredArgsConstructor
 @Entity
-@Table(name = "warehouse")
+@Table(name = "warehouse_table")
 public class Warehouse implements Serializable {
 
-    private static final long serialVersionUID = -1674856983717599061L;
+    private static final long serialVersionUID = -1674856917599061L;
 
     @Id
     @GeneratedValue(strategy = IDENTITY)

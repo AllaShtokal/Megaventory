@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 public class RootProductResponse {
 
-    public MvProductResponse mvProductResponse;
+    public MvProduct mvProduct;
     @JsonProperty("ResponseStatus")
     public ResponseStatus responseStatus;
     public int entityID;

@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
-public class MvProductRequest {
+public class MvProduct {
     @JsonProperty("ProductType")
     public String productType;
     @JsonProperty("ProductSKU")

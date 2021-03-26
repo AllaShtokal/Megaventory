@@ -16,10 +16,10 @@ import static javax.persistence.GenerationType.IDENTITY;
 @Setter
 @RequiredArgsConstructor
 @Entity
-@Table(name = "product")
+@Table(name = "product_table")
 public class Product implements Serializable {
 
-    private static final long serialVersionUID = -4585902143717599061L;
+    private static final long serialVersionUID = -4585902143599061L;
 
     @Id
     @GeneratedValue(strategy = IDENTITY)
@@ -29,6 +29,9 @@ public class Product implements Serializable {
     @Column(name = "sku",
             nullable = false)
     private Long sku;
+
+    @Column(name = "mvId")
+    private Long mvId;
 
     @Size(min = 3, max = 100)
     @NotBlank

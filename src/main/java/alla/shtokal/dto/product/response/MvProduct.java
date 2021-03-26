@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class MvProductResponse {
+public class MvProduct {
     @JsonProperty("ProductID")
     public int productID;
     @JsonProperty("ProductType")
@@ -80,5 +80,5 @@ public class MvProductResponse {
     @JsonProperty("ProductMainSupplierDescription")
     public String productMainSupplierDescription;
     @JsonProperty("ProductCreationDate")
-    public Date productCreationDate;
+    public String productCreationDate;
 }

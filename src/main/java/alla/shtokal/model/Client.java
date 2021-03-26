@@ -15,10 +15,10 @@ import static javax.persistence.GenerationType.IDENTITY;
 @Setter
 @RequiredArgsConstructor
 @Entity
-@Table(name = "client")
+@Table(name = "client_table")
 public class Client implements Serializable {
 
-    private static final long serialVersionUID = -1674802143717599061L;
+    private static final long serialVersionUID = -167480999399061L;
 
     @Id
     @GeneratedValue(strategy = IDENTITY)
@@ -29,8 +29,7 @@ public class Client implements Serializable {
             nullable = false)
     private String name;
 
-    @Column(name = "email",
-            unique = true,
+    @Column(name = "email_address",
             nullable = false)
     private String email;
 

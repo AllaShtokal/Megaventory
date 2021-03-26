@@ -19,8 +19,8 @@ java.alla.shtokal.dto :
 > Other packages and classes just exists XD,
 > I just have created them because first I had 
 > another understanding of the task. I didn't 
-> remove them because, they could be usefull for my shop app (theoretically).
-> So, the classes I have mentioned and descrived above (in 
+> remove them because, they could be useful  for my shop app (theoretically).
+> So, the classes I have mentioned and described  above (in 
 > the project structure) are designed for integration with MV API
 
 ## Endpoints

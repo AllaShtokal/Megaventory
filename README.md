@@ -14,7 +14,7 @@ java.alla.shtokal.controler. mv :
 - SalesOrderMVController:  POST new sales order
 
 java.alla.shtokal.dto :
-- Entities created by JSONs from API MV (client,product, warehouse, sales order)
+- Entities created using JSONs from MV API  (client,product, warehouse, sales order)
 
 > Other packages and classes just exists XD,
 > I just have created them because first I had 

@@ -6,7 +6,6 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 import static javax.persistence.GenerationType.IDENTITY;
@@ -44,6 +43,9 @@ public class Client implements Serializable {
     @Column(name = "phone",
             length = 13)
     private String phone;
+
+    @Column(name = "some_nfo")
+    private String someInfo;
 
 
 
